@@ -11,8 +11,10 @@ public class caixaEletronico {
         if (valorSolicitado < saldo) {
             saldo = saldo - valorSolicitado;
              JOptionPane.showMessageDialog(null, "O valor do saldo atual é de " + saldo );
-                  
-        }else
+        
+            
+        }     
+        else
         JOptionPane.showMessageDialog(null,"Saldo insuficiente" );
 
 
